@@ -1,0 +1,45 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Images/subway.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    font-size: 60px;
+    text-align: center;
+}
+#count-el{
+    font-size: 70px;
+    text-align: center;
+}
+button{
+    border: none;
+    padding-block: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-inline: auto;
+}
+#inc{
+    background-color: darkorchid;
+}
+#save-btn{
+    background-color: darkred;
+}
+p, #save-el{
+    color: red;
+    font-family: sans-serif;
+    font-size: xx-large;
+    background-color: antiquewhite;
+}
+h2{
+    color: blueviolet;
+    font-family: sans-serif;
+    font-size: xx-large;
+    background-color: aliceblue;
+}
